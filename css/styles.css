@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2? family=Fira+Sans:ital,wght@0,100;0,400;1,600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+   font-family: 'Fira Sans', sans-serif;
+   font-size: 20px;
+   background-color:rgb(209, 192, 211);
+   align-items: center;
+} 
+
+header{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    height: 90%;
+    width: 100%;
+    text-size-adjust: 25px;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paisaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-1{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:baseline;
+    list-style-position: inside;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin: 20px;
+    padding: 16px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: black;
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+    color: black;
+    font-family: 2.5rem;
+    text-align: center;
+}
+p{
+    margin-bottom: 70px;
+    margin-top: 50px;
+    font-style: 26px;
+    justify-content: initial;
+}
+.tex-1{
+    background-color: rgb(162, 101, 219);
+    padding: 20px;
+    border-radius: 20px;
+}
+.boton{
+   display: flex;
+   flex-direction: center;
+   justify-content: center;
+   align-items: center;
+   background-color: blueviolet;
+   font-style: unset;
+   text-decoration: none;
+   color: white;
+   margin-left: 30%;
+   margin-right: 30%;
+   padding: 12px 20px;
+   border-radius: 50px;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 20px;
+}
+article{
+    color: inherit;
+    font-style:normal;
+    text-decoration: none;
+    padding-top: 100px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100px;
+    margin-top: 100px;
+}
+img{
+    display: inline-block;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly
+    justify-items: center;
+    width: 80px;
+    max-width: 100px;
+    margin: 20px;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size: small;
+    margin: 20px 10px 20px 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
